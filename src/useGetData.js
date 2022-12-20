@@ -11,7 +11,7 @@ const useGetData = ({sort_by,tag,query, currentPage}) => {
         popularity: '',
     }
    
-    const url = `http://hn.algolia.com/api/v1/search${filters[sort_by]}?query=${query}&tags=${tag}`;
+    const url = `https://hn.algolia.com/api/v1/search${filters[sort_by]}?query=${query}&tags=${tag}`;
  
    
  
