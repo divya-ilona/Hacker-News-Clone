@@ -12,7 +12,7 @@ const NewsCard=({story})=>{
         <div className='news-card'>
           <Card >
             <Card.Body>
-              <Card.Title><h2>{story.title}</h2></Card.Title>
+              <Card.Title><h3>{story.title}</h3></Card.Title>
               <Card.Text>Author: {story.author} &nbsp;|&nbsp;    {story.num_comments} comments &nbsp;|&nbsp; {story.points===null? 0:story.points}  points &nbsp;|&nbsp; {time(story.created_at)}</Card.Text>
             </Card.Body>
             <Card.Footer>
