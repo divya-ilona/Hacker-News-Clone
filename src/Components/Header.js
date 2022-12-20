@@ -9,7 +9,7 @@ function Header() {
   return (
     <Navbar bg="success" expand="lg" >
       <Container fluid>
-        <Navbar.Brand href="home">Hacker News</Navbar.Brand>
+        <Navbar.Brand href="/" >Hacker News</Navbar.Brand>
       </Container>
     </Navbar>
   );
